@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "netlify deploy --prod",
+    "build": "npm install && npm run start",
     "start": "node index.js"
   },
   "keywords": [],
