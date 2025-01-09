@@ -1,0 +1,4 @@
+tasks:
+  - before: pkill -f swift
+    init: npm install
+    command: npm start
